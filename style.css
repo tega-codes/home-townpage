@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    background-image: url('/images/lagos-view.jpeg');
+    background-size: cover;         /* Ensures the image covers the section */
+    background-position: center;    /* Centers the image */
+    background-repeat: no-repeat;   /* Prevents tiling */
+    text-align: center;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+.lagos-description{
+   text-shadow: 0 0 1px black;
+   background-color: #222831; 
+   margin: 0 ;
+   padding: 5px 15px;
+}
+#hometown{
+    padding: 5px 15px;
+    background-color: #1d2024;
+}
